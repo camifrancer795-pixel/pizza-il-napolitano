@@ -56,6 +56,26 @@ font-weight: 500;
 font-family: 'Oswald', sans-serif;
 
 }
+
+.gallery {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Work Sans", sans-serif;
+}
+.gallery li{
+  display: flex;
+  box-sizing: border-box;
+  width: calc(100%/3);
+  padding: 10px;
+  list-style: none;
+}
+
+.gallery li .box{
+
+  padding: 6px 6px 30px 6px;
+  border: 2px solid #626568;
+}
 /*
 .pizza_conmigo_list {
     display:flex;
