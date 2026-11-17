@@ -242,6 +242,20 @@ main h2 {
   font-family: 'Work Sans', sans-serif;
 }
 
+  .search {
+    text-align:center;
+    margin: 20px, 0px;
+  }
+#input-search{
+   padding: 10px 15px;
+   width: 300px;
+   max-width: 90%; 
+   border: 2px solid #e1e8ee; 
+   border-radius: 20px; 
+   font-size: 1rem;
+   outline: none;
+}
+
 /* tablet (≤ 1024px): 2 columnas */
 @media (max-width: 1024px) {
   #header-container {
@@ -301,6 +315,7 @@ main h2 {
     letter-spacing: 1px;
     margin: 1rem 0;
   }
+ 
 
   .gallery {
     flex-direction: column;
@@ -328,6 +343,9 @@ main h2 {
     margin: 0 0.75rem;
   }
 }
+ 
+
+
 
 /* Mobile pequeño (≤ 480px) */
 @media(max-width: 480px) {
@@ -335,7 +353,11 @@ main h2 {
     font-size: 1.8rem;
   }
 
-  main h2 {
+  main h2 
+  
+}
+
+  {
     font-size: 1.2rem;
   }
 
@@ -372,4 +394,3 @@ main h2 {
     right: 1rem;
     bottom: 1rem;
   }
-}
