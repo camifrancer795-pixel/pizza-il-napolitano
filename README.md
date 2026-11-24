@@ -22,3 +22,5 @@ https://fontawesome.com
 https://cdnjs.com
 
 https://jsonlint.com/
+
+https://fontawesome.com
