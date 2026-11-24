@@ -23,4 +23,4 @@ https://cdnjs.com
 
 https://jsonlint.com/
 
-https://fontawesome.com
+https://sweetalert2.github.io/
